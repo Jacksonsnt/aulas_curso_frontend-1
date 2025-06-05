@@ -6,5 +6,5 @@ function parImpar(){
   }else{
     document.getElementById('demo').innerHTML = "É um número ímpar.";
   }
-
+ 
 }

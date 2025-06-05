@@ -4,22 +4,45 @@
   <meta charset="UTF-8">
   <title>Exemplo JavaScript 04</title>
   <script src="script-04.js"></script>
-
+  
+<head>
+  <style>
+    body{
+      text-align: center;
+      font-size: 2rem;
+    }
+    input{
+      padding: 10px;
+    }
+    button{
+      padding: 10px;
+      cursor: pointer;
+    }
+    div{
+      margin-right: auto;
+      margin-left: auto;
+      width: 400px;
+      border-radius: 15px;
+      background-color: rgb(185, 190, 190);
+      padding: 10px;
+    }
+  </style>
 <body>
 
-<h2>Primeiros passos JavaScritp 04</h2>
+<div><h2>Primeiros passos JavaScritp 04</h2>
 
 <!--Exemplo de soma function -->
 <p>Nota A: <input type="number" id="valor01"></p>
 <p>Nota B: <input type="number" id="valor02"></p>
+<p>Nota C: <input type="number" id="valor03"></p>
 
 <!--Exemplo de soma function -->
 <button type="button"
     onclick="media()">
-Verificar a média do aluno e resultado (méida = 7).
+Verificar o maior numero.
 </button>
 
 <p>Saída: <label id="demo"> </label></p>
-
+</div>
 </body>
 </html> 
